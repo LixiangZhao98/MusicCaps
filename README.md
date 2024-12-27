@@ -14,10 +14,10 @@ pip install datasets yt-dlp pydub
 
 
 ## Install FFmpeg
-- For Windows:
+For Windows:
 Download [FFmpeg](https://ffmpeg.org/download.html), add the path to the system's environment variables.
 
-- For macOS/Linux:
+For macOS/Linux:
 ```install
 # macOS
 brew install ffmpeg
@@ -28,4 +28,5 @@ sudo apt install ffmpeg
 ```
 
 ## Export Cookie
-- Log in YouTube and export the cookie with extensions (such as [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm))
+- Log in YouTube 
+- Export the cookie with extensions (such as [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)) in `Netscape` format and save in `cookies.text`
