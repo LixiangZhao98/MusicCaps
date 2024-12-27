@@ -14,10 +14,10 @@ pip install datasets yt-dlp pydub
 
 
 ## Install FFmpeg
-For Windows:
+- For Windows:
 Download [FFmpeg](https://ffmpeg.org/download.html), add the path to the system's environment variables.
 
-For macOS/Linux:
+- For macOS/Linux:
 ```install
 # macOS
 brew install ffmpeg
