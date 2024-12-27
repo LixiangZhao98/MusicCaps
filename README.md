@@ -26,3 +26,6 @@ brew install ffmpeg
 sudo apt update
 sudo apt install ffmpeg
 ```
+
+## Export Cookie
+- Log in YouTube and export the cookie with extensions (such as [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm))
