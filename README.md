@@ -1,5 +1,5 @@
-# MusicCaps Dataset
-MusicCaps is a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. For each 10-second music clip, MusicCaps provides:
+# MusicCaps
+[MusicCaps](https://paperswithcode.com/dataset/musiccaps) is a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. For each 10-second music clip, MusicCaps provides:
 
 1) A free-text caption consisting of four sentences on average, describing the music and
 
