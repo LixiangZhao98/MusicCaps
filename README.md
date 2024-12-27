@@ -1,6 +1,9 @@
 # MusicCaps Dataset
-MusicCaps dataset is a music description dataset released by Google, containing audio clips of music along with corresponding textual descriptions. Since the audio clips are extracted from YouTube videos, the dataset only provides the YouTube video IDs (ytid), start times (start_s), and end times (end_s), requiring users to download the audio clips themselves. This repo shows how to download MusicCap.
+MusicCaps is a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. For each 10-second music clip, MusicCaps provides:
 
+1) A free-text caption consisting of four sentences on average, describing the music and
+
+2) A list of music aspects, describing genre, mood, tempo, singer voices, instrumentation, dissonances, rhythm, etc.
 
 # Usage
 
