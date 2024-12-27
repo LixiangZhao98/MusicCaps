@@ -30,3 +30,8 @@ sudo apt install ffmpeg
 ## Export Cookie
 - Log in YouTube 
 - Export the cookie with extensions (such as [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)) in `Netscape` format and save in `cookies.text`
+
+## Run
+```install
+python Download.py
+```
