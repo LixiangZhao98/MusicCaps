@@ -5,6 +5,11 @@ MusicCaps is a music description dataset released by Google, containing audio cl
 # Usage
 
 ```install
+onda create --name MusicCap python=3.9
+
+conda activate MusicCap
+
+clone this repository go to the corresponding folder and execute the following commands:
 $ pip install datasets yt-dlp pydub
 ```
 
