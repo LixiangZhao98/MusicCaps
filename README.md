@@ -8,10 +8,10 @@ MusicCaps is a music description dataset released by Google, containing audio cl
 $ pip install datasets yt-dlp pydub
 ```
 
-Install FFmpeg
-#### Windows
+
+### Install FFmpeg for Windows
 Download [FFmpeg](https://ffmpeg.org/download.html), add the path to the system's environment variables.
-#### macOS/Linux
+### Install FFmpeg for macOS/Linux
 ```install
 # macOS
 brew install ffmpeg
