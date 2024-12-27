@@ -30,8 +30,9 @@ sudo apt update
 sudo apt install ffmpeg
 ```
 
-## Export Cookie
-- Export the cookie with extensions (such as [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)) in `Netscape` format and save in `cookies.text`
+## How do I pass cookies to yt-dlp?
+- You may also use a conforming browser extension for exporting cookies, such as [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) and [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)for Chrome or [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/) for Firefox.
+- Save the cookie in `cookies.text`
 
 ## Run
 ```install
