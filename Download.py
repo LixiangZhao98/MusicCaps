@@ -57,7 +57,7 @@ def download_clip(video_id, output_path, start_time, end_time, tmp_dir="./tmp", 
 
 from pathlib import Path
 
-def download_musiccaps(data_dir, limit=None):
+def download_musiccaps(data_dir, startAt=0):
     """
     下载 MusicCaps 数据集中的音频片段。
 
@@ -67,8 +67,7 @@ def download_musiccaps(data_dir, limit=None):
     """
     # 加载数据集
     dataset = load_dataset("google/MusicCaps", split="train")
-    if limit:
-        dataset = dataset.select(range(limit))
+    dataset = dataset.select(range(startAt,len(dataset),1))
 
     # 创建保存目录
     data_dir = Path(data_dir)
@@ -81,10 +80,10 @@ def download_musiccaps(data_dir, limit=None):
         output_path = data_dir / f"{video_id}.wav"
 
         if output_path.exists():
-            print(f"[{i+1}] 已存在，跳过: {output_path}")
+            print(f"[{i+startAt+1}] 已存在，跳过: {output_path}")
             continue
 
-        print(f"[{i+1}] 下载: {video_id} -> {output_path}")
+        print(f"[{i+startAt+1}] 下载: {video_id} -> {output_path}")
         success = download_clip(
             video_id=video_id,
             output_path=str(output_path),
@@ -94,14 +93,7 @@ def download_musiccaps(data_dir, limit=None):
         if not success:
             print(f"下载失败: {video_id}")
             
-# 下载前 10 个样本
-# download_musiccaps(data_dir="./musiccaps_data", limit=10)
-download_musiccaps(data_dir="./musiccaps_data")
-import os
-
-# 列出下载的文件
-files = os.listdir("./musiccaps_data")
-print("下载的文件:", files)
+download_musiccaps(data_dir="./musiccaps_data",startAt=0)
 
 # Resampling
 # from pydub import AudioSegment
