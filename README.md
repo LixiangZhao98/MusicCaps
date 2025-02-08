@@ -8,7 +8,7 @@
 # Usage
 
 ```install
-onda create --name MusicCap python=3.9
+conda create --name MusicCap python=3.9
 
 conda activate MusicCap
 
